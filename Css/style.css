@@ -109,6 +109,11 @@ body{
     color: var(--M-color);
 }
 
+.note-item button:hover{
+background-color: var(--M-color);
+color: white;
+}
+
 @media(min-width: 992px){
     .note-list{
         display: grid;
@@ -117,6 +122,11 @@ body{
 }
 
 /*** alert ***/
-.warning{
-    border-color: rgba(89, 139, 255, 0.8)!important;
+.swal-button {
+        background-color: var(--M-color) !important;
+}
+
+.swal-button:hover {
+    background: #1e3652 !important;
+    box-shadow: 0 0 8px 0 rgba(72, 148, 255, 0.33) !important;
 }
